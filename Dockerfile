@@ -1,6 +1,6 @@
 FROM golang:1.7.1
 
-RUN apt-get update && apt-get --assume-yes install vim git curl
+RUN apt-get update && apt-get --assume-yes install vim-gtk git curl
 
 COPY ./vimrc /root/.vimrc
 
